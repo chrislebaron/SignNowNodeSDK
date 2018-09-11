@@ -152,7 +152,8 @@ signnow.document.create({
 ```javascript
 signnow.document.fieldextract({
 	token: "your auth token",
-	filepath: ""
+	filepath: "",
+	fileurl
 }, function(err, res){
 	if(!err){
 		console.log("RESULTS:" + res);
